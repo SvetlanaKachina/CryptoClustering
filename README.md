@@ -35,7 +35,7 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
 + Created a new DataFrame with the scaled PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
      + The first five rows of the scaled PCA DataFrame appeared as follows:
  
-### Find the Best Value for k Using the PCA DataFrame ###
+### Found the Best Value for k Using the PCA DataFrame ###
 Use the elbow method on the scaled PCA DataFrame to find the best value for k using the following steps:
 + Created a list with the number of k-values from 1 to 11.
 + Created an empty list to store the inertia values.
@@ -46,7 +46,7 @@ Use the elbow method on the scaled PCA DataFrame to find the best value for k us
 + What is the best value for k when using the scaled PCA DataFrame? - The best value for k using PCA is 4
 + Does it differ from the best k value found using the original scaled DataFrame? - No, it does not differ from the original data.
 
-### Cluster Cryptocurrencies with K-means Using the PCA DataFrame ###
+### Clustered Cryptocurrencies with K-means Using the PCA DataFrame ###
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA DataFrame:
 + Initialized the K-means model with the best value for k.
 + Fit the K-means model using the scaled PCA DataFrame.
