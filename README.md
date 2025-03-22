@@ -17,7 +17,7 @@ Used the elbow method to find the best value for k using the following steps:
 + Plotted a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 + The beast value for k is 4
 
-### Cluster Cryptocurrencies with K-means Using the Scaled DataFrame ###
+### Clustered Cryptocurrencies with K-means Using the Scaled DataFrame ###
 Used the following steps to cluster the cryptocurrencies for the best value for k on the scaled DataFrame:
 + Initialized the K-means model with the best value for k.
 + Fitted the K-means model using the scaled DataFrame.
