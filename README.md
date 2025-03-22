@@ -8,7 +8,7 @@
 + The first nine rows of the scaled DataFrame should appear as follows:
  
 
-### Find the Best Value for k Using the Scaled DataFrame ###
+### Found the Best Value for k Using the Scaled DataFrame ###
 Used the elbow method to find the best value for k using the following steps:
 + Created a list with the number of k values from 1 to 11.
 + Created an empty list to store the inertia values.
