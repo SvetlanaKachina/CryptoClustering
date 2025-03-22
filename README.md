@@ -6,7 +6,8 @@
 + Created a DataFrame with the scaled data and set the "coin_id" index from the original     DataFrame as the index for the new DataFrame.
 
 + The first nine rows of the scaled DataFrame should appear as follows:
- 
+ ![image](https://github.com/user-attachments/assets/7db57738-5709-4155-a424-6360ce4e8947)
+
 
 ### Found the Best Value for k Using the Scaled DataFrame ###
 Used the elbow method to find the best value for k using the following steps:
@@ -34,7 +35,8 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
     + The total explained varience of the three principal components is 0.90(with round ups)
 + Created a new DataFrame with the scaled PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
      + The first five rows of the scaled PCA DataFrame appeared as follows:
- 
+ ![image](https://github.com/user-attachments/assets/4cd64dd7-05a3-4c6f-8be6-6ef1b6ce0f71)
+
 ### Found the Best Value for k Using the PCA DataFrame ###
 Use the elbow method on the scaled PCA DataFrame to find the best value for k using the following steps:
 + Created a list with the number of k-values from 1 to 11.
